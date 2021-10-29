@@ -14,7 +14,7 @@ def finder(files, queries):
         # else add split -1 to cache wit [path] as value
         else:
             cache[file_name] = [file]
-    # iterate through queries
+    # iterate through queries 
     for query in queries:
         # if query in cache iterate through cache[query] to append paths to result
         if query in cache:
